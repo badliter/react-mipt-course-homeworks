@@ -49,7 +49,7 @@ const authPost = async (path, body) => {
     return response.json();
 };
 
-const wait = () => new Promise(r => setTimeout(r, 2000));
+const wait = () => new Promise(r => setTimeout(r, 0));
 
 export default {
     post,
